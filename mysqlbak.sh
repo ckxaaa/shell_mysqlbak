@@ -17,6 +17,6 @@ while true
             exit 0
         fi
         cd $datedir
-        find . -mtime +7 | xargs rm -rf
+        find . -mtime +5 | xargs rm -rf
 	sleep 30
 done
